@@ -281,6 +281,20 @@ La IA puede ser un asistente y ayudarnos, pero como profesionales nosotros gener
 
 :::
 
+## Aclaración
+
+<br>
+
+Si bien el curso promueve el uso de herramientas de Inteligencia Artificial (IA) de manera ética, responsable y con criterio académico. Estas solo podrán emplearse, entre otros fines, para la búsqueda de información (que deberá ser debidamente verificada), la corrección de código en R y la revisión gramatical y ortográfica de textos.
+
+<br>
+
+. . . 
+
+No se permitirá el uso de código generado automáticamente sin comprensión de su funcionamiento o que no pueda ser reproducido por el/la estudiante (uso como “caja negra”), ni la delegación en estas herramientas de la interpretación estadística o epidemiológica en trabajos prácticos. Asimismo, se considera una falta grave su utilización no ética en instancias de evaluación.
+
+
+
 ## Un prompt bien construido
 
 
