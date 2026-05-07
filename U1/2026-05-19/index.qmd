@@ -238,11 +238,18 @@ Los objetivos básicos perseguidos por el análisis exploratorio de datos son:
 
 ::::: columns
 ::: {.column width="50%"}
+
+::: {style="font-size: 80%;"}
 -   Identificar los valores faltantes en las variables nos permite conocer con que tamaño muestral estamos trabajando frente a cada estadístico calculado.
 
--   Suele descartarse la variable, cuando la proporción de valores faltantes es alta en el conjunto de observaciones para dicha variable.
+-   También si los valores ausentes se produjeron al azar o existe algún proceso informativo vinculado. Esto nos permite decidir como continuar con nuestro análisis.
 
--   Suele descartarse la observación, cuando la proporción de valores faltantes es alta en el conjunto de variables de dicha observación.
+- Solemos descartar la variable, cuando la proporción de valores faltantes es alta en el conjunto de observaciones para dicha variable.
+
+- Existen técnicas de imputación de valores que escapan al temario que integra este curso. 
+
+- En todos los casos se debe informar explícitamente lo que hizo con esos valores ausentes.
+:::
 :::
 
 ::: {.column width="50%"}
@@ -281,7 +288,7 @@ plot_na_pareto(datos)
 
 -   Exploración y diagnóstico
 
--   Valores perdidos
+-   Valores ausentes
 
 -   Análisis descriptivo
 

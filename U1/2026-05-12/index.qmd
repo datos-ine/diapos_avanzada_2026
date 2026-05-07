@@ -405,6 +405,30 @@ Pero enlazado con el plano teórico:
 - instrumentos (encuesta, historia clínica)
 - sistema de registro (vigilancia, tipo de estudio)
 
+## Metadatos: diccionario de datos
+
+<br>
+
+- Son *"los datos que hablan de los datos"* e inseparables de cualquier tabla de datos que trabajemos.
+
+- Describen origen de recolección, fecha, definiciones conceptuales y técnicas, tipo de estudio al que están asociados, etc.
+
+::: {style="font-size: 80%;"}
+Delimitador de variables: ;
+
+Delimitador de decimales: ,
+
+| Variable           |       Tipo | Descripción           | Valores posibles |
+|--------------------|-----------:|-----------------------|------------------|
+| id_caso            |   numérico | Identificador único   | 1,2,3...         |
+| edad               |   numérico | Edad en años          | 0–120            |
+| sexo               | categórica | Sexo biológico        | M, F, O          |
+| fecha_notificacion |      fecha | Fecha de notificación | AAAA-MM-DD       |
+| diagnostico        | categórica | Código CIE10          | Formato CIE10    |
+:::
+
+
+
 ## Para finalizar
 
 <br>
@@ -437,3 +461,4 @@ Pero enlazado con el plano teórico:
 
 ## Referencias
 
+<br>
